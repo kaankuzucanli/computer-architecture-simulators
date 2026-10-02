@@ -15,3 +15,11 @@ Direct Memory Access (DMA) mimarisinde, veriyolu (bus) kontrolünün cihazlar ar
 *   Java (Core)
 *   Java Swing (GUI)
 *   Data Structures (Kuyruk mimarisi için LinkedList)
+
+## Proje 2: Mano Makinesi Assembler (Çevirici)
+Mano Temel Bilgisayarı (Basic Computer) mimarisi için yazılmış sembolik Assembly kodlarını (Örn: `LDA 045`, `ADD 046 I`) okuyup, bunları 16-bitlik Hexadecimal makine kodlarına dönüştüren algoritmik bir çevirici programdır.
+
+### Temel Özellikler:
+*   Bellek referanslı (MRI) ve bellek referanssız (Register & I/O) komut setlerini tanıma (Opcode Map).
+*   Dolaylı (Indirect - I bit) ve Doğrudan (Direct) adresleme modlarını ayırt etme.
+*   Dışarıdan verilen `Program.txt` dosyasını satır satır ayrıştırıp (parsing) anlık çeviri yapma.
