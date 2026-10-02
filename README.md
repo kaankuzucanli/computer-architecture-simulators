@@ -23,3 +23,10 @@ Mano Temel Bilgisayarı (Basic Computer) mimarisi için yazılmış sembolik Ass
 *   Bellek referanslı (MRI) ve bellek referanssız (Register & I/O) komut setlerini tanıma (Opcode Map).
 *   Dolaylı (Indirect - I bit) ve Doğrudan (Direct) adresleme modlarını ayırt etme.
 *   Dışarıdan verilen `Program.txt` dosyasını satır satır ayrıştırıp (parsing) anlık çeviri yapma.
+
+## Proje 3: Boole İfadeleri Çözümleyici (Boole Evaluator)
+Kullanıcıdan String olarak alınan mantıksal (Boolean) ifadeleri ayrıştırarak (parsing) sonucunu hesaplayan Java tabanlı bir algoritmadır.
+
+### Temel Özellikler:
+*   `AND`, `OR`, `NOT` mantıksal kapı operatörlerini string manipülasyonu ile tanıma.
+*   Mantıksal önceliklendirme (önce NOT kapısının işlenmesi) simülasyonu.
